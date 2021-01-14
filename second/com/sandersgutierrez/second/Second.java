@@ -4,7 +4,7 @@ import com.sandersgutierrez.first.First;
 
 public class Second {
     public String getInfo() {
-        return "Second";
+        return "Second " + getClass().getModule();
     }
 
     public static void main(String[] args) {
