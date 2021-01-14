@@ -17,4 +17,6 @@ rm -rf output/classes
 
 java -classpath output/mlib/first.jar:output/mlib/second.jar com.sandersgutierrez.second.Second
 
-# java -p output/mlib -m second/com.sandersgutierrez.second.Second
+echo "---------------"
+
+java -p output/mlib -m second/com.sandersgutierrez.second.Second
